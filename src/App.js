@@ -1,9 +1,16 @@
-import react from "react";
-import "./App";
-
+import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import HeroSection from "./HeroSection";
+import CardSection from "./CardSection";
+import FeatureSection from "./FeatureSection";
 const App=()=>(
         <div>
-            <h1>Hello World !!</h1>
+            <Navbar/>
+            <HeroSection/>
+            <FeatureSection/>
+            <CardSection/>
+            <Footer/>
         </div>
 )
 export default App;
